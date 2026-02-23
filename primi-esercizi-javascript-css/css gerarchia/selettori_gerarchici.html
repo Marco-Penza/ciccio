@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)file:///C:/Users/Utente/Desktop/esercizi/css%20gerarchia/selettori_gerarchici.html -->
+<html lang="it"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Test selettori CSS di gerarchia e fratellanza</title>
+  <link rel="stylesheet" type="text/css" href="./selettori_gerarchici_files/selettori_gerarchici.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Test selettori CSS</h1>
+
+    <div class="box">
+      <span>Span dentro box – deve essere selezionato dal selettore discendente.</span><span>Span dentro box – deve essere selezionato dal selettore discendente.</span><span>Span dentro box – deve essere selezionato dal selettore discendente.</span>
+      <span>Span dentro box – deve essere selezionato dal selettore discendente.</span>
+      <span>Span dentro box – deve essere selezionato dal selettore discendente.</span>
+      <span>Span dentro box – deve essere selezionato dal selettore discendente.</span>
+      <span>Span dentro box – deve essere selezionato dal selettore discendente.</span>
+      <span>Span dentro box – deve essere selezionato dal selettore discendente.</span>
+      <span>Span dentro box – deve essere selezionato dal selettore discendente.</span>
+      <span>Span dentro box – deve essere selezionato dal selettore discendente.</span>
+      <span>Span dentro box – deve essere selezionato dal selettore discendente.</span>
+
+      <div>
+        <span>Span dentro box → anche qui (non figlio diretto) e deve essere selezionato dal .box span.</span>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>Paragrafo diretto figlio di .container – selettore child lo seleziona.</p>
+      <div>
+        <p>Paragrafo dentro un div dentro .container – NON è figlio diretto della .container, quindi il .container &gt; p NON lo seleziona.</p>
+      </div>
+    </div>
+
+    <h2 id="x" class="ciccio">Sezione Titolo 1</h2>
+    <p>Paragrafo subito dopo h2 .</p>
+    <div id="y">Un div intermedio</div>
+    <p>Paragrafo dopo un div intermedio .</p>
+
+    <h2>Sezione Titolo 2</h2>
+    <div>Un altro blocco</div>
+    <p>Paragrafo dopo altro contenitore.</p>
+
+  </div>
+
+
+</body></html>
