@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "marco",
+        "data": "2026/02/18 18:09:51",
+        "tentativi": 6,
+        "risultato": "Vittoria"
+    },
+    {
+        "nome": "ciccio",
+        "data": "2026/02/18 18:12:35",
+        "tentativi": 2,
+        "risultato": "Vittoria"
+    },
+    {
+        "nome": "m",
+        "data": "2026/02/18 18:30:47",
+        "tentativi": 1,
+        "risultato": "Sconfitta"
+    },
+    {
+        "nome": "a ",
+        "data": "2026/02/18 18:47:10",
+        "tentativi": 7,
+        "risultato": "Vittoria"
+    }
+]

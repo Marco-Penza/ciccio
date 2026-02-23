@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "strict": true,
+    "outDir": "./ts-build",
+    "declaration": false,
+    "declarationMap": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  }
+}
